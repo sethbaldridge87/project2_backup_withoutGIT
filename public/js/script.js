@@ -7,7 +7,7 @@ $.get("/api/all", function(data) {
     for (var i = 0; i < data.length; i++) {
       var row = $("<div class='row'>");
       row.addClass("user");
-      row.append("<h3 data-id=" + data[i].id + ">User:</h3>");
+      row.append("<h3 data-id=" + data[i].id + "></h3>");
       row.append("<p>Name: " + data[i].name + "</p>");
       // row.append("<p>Age: " + data[i].age + "</p>");
       // row.append("<p>Height: " + data[i].height + "</p>");
