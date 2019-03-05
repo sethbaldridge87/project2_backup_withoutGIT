@@ -1,0 +1,13 @@
+.list-group-item {
+  line-height: 2.5;
+}
+.user {
+  border: 1px solid rgba(0,0,0,0.5);
+  padding: 10px;
+}
+.delete_user:hover {
+  cursor: pointer;
+}
+#users {
+  text-align: left;
+}
